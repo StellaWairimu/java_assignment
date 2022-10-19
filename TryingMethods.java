@@ -17,9 +17,9 @@ public class TryingMethods {
              
              System.out.println(day);
 
-            sumofNumbers();
-            evenNumbers(); 
-        }
+            System.out.println(sumofNumbers());
+            System.out.println(evenNumbers()); 
+    }
 
      //Method 2
         public static void iftest (int y ) {
@@ -72,9 +72,9 @@ public class TryingMethods {
       }
       //Sum of numbers <1000 
 
-      public static int sumofNumbers( ) {
+      public static int sumofNumbers() {
         int sum = 0, i=1;
-        while (i<1000); {
+        while (i<1000) {
             sum+=i;
             i++;
         }
@@ -85,9 +85,9 @@ public class TryingMethods {
         int sum = 0;
         for (int x= 12; x<=103; x++) 
         {
-          if (x % 2 == 0 );
+          if (x % 2 == 0 )
           {
-            sum +=x ;
+            sum +=x;
             
           }
           
